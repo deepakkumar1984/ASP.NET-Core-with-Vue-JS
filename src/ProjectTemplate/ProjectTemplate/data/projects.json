@@ -1,0 +1,42 @@
+[
+  {
+    "ID": "PROJ1",
+    "Name": "Google Home App for The Hartford",
+    "Details": "The Hartford, a major insurance company, wants to enable its customers to interact with the company via their channel of choice. Since the Google Home has one of the largest shares of voice-assistant devices in the US, The Hartford wanted to offer its current or perspective customers the ability to interact with the company via the Google Home.",
+    "StartDate": "2021-10-05",
+    "EndDate": "2021-12-31",
+    "Owner": "John Doe"
+  },
+  {
+    "ID": "PROJ2",
+    "Name": "Data-Mail Workflow Analytics",
+    "Details": "Data-Mail Inc, one of the nation’s leading full-service direct mail providers, wanted to upgrade its systems for tracking employee's time spent on preparing communications. This application was created to integrate with Data-Mail's data processing systems in order to accurately collect task data while reducing the need for manual data entry. With its new data model, the application allows for the collection and display of new analytic metrics regarding efficiency and performance.",
+    "StartDate": "2021-05-01",
+    "EndDate": "2021-10-15",
+    "Owner": "Deepak B"
+  },
+  {
+    "ID": "PROJ3",
+    "Name": "Automatic Test Data Generation",
+    "Details": "The Hartford’s Digital Sales Application prompts customers to enter personal information and driving history to receive a quote on their auto insurance. The Hartford asked students to automate the creation of test data for the application to support developers working under Shift-Left and DevOps methodologies. Test data creation is configurable to produce specific test cases.",
+    "StartDate": "2022-01-05",
+    "EndDate": "2022-05-31",
+    "Owner": "John Doe"
+  },
+  {
+    "ID": "PROJ4",
+    "Name": "On-call Scheduler",
+    "Details": "Aetna needed to replace the existing process of scheduling on-call engineers with a portable API-first application for the engineering teams to track their on-call schedules and also match applications to the engineers who support them. The application allows to view/add/edit/delete engineers and applications, to establish a relationship between each engineer and the applications that engineer supports, to manipulate the on-call schedule of each engineer, and to establish the primary, secondary, and escalation engineer, as needed.",
+    "StartDate": "2022-04-01",
+    "EndDate": "2022-8-31",
+    "Owner": "James Doe"
+  },
+  {
+    "ID": "PROJ5",
+    "Name": "Community Calendar Application",
+    "Details": "The Education for Development and Support Network (EDSN) Foundation provides free websites with community calendars to local self-help non-profit organizations as part of our technology and programming literacy service",
+    "StartDate": "2022-07-15",
+    "EndDate": "2022-12-31",
+    "Owner": "Deepak B"
+  }
+]

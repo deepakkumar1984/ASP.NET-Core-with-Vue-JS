@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="ASP.Net_Core_SPA_with_Vue_Js.5142909b-a852-4729-8b53-25fcc7e951f1" Version="1.0" Language="en-US" Publisher="Deepak Battini" />
+        <DisplayName>ASP.Net Core SPA with Vue Js</DisplayName>
+        <Description xml:space="preserve">The template is equivalent to creating both an ASP.NET Core project to act as an API backend, and a Vue Js project to act as a UI, but with the convenience of hosting both in a single app project that can be built and published as a single unit. There is no dependency of Node js. Please following the existing example to extend the application. </Description>
+        <Icon>icon.png</Icon>
+        <Tags>vue js, SPA, Asp.NET, core, single page, application, web</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
