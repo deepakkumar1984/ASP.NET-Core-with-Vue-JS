@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ASP.NET_Core_SPA_with_Vue_Js2.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ProjectTemplate.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjectTemplate.Controllers
+namespace ASP.NET_Core_SPA_with_Vue_Js2.Controllers
 {
     public class VueController : Controller
     {
@@ -23,10 +23,9 @@ namespace ProjectTemplate.Controllers
             return View();
         }
 
-        public string Load(string ID)
+        public string Load(string path)
         {
-            ID = ID.Replace("_", "/");
-            return System.IO.File.ReadAllText($"./Components/{ID}");
+            return System.IO.File.ReadAllText($"./{path}");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

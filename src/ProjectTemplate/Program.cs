@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjectTemplate
+namespace ASP.NET_Core_SPA_with_Vue_Js2
 {
     public class Program
     {

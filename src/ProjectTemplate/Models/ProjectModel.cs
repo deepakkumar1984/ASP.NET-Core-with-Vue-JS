@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjectTemplate.Models
+namespace ASP.NET_Core_SPA_with_Vue_Js2.Models
 {
     public class ProjectModel
     {

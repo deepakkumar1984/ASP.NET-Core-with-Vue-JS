@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ASP.NET_Core_SPA_with_Vue_Js2.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using ProjectTemplate.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjectTemplate.Controllers
+namespace ASP.NET_Core_SPA_with_Vue_Js2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
