@@ -7,7 +7,7 @@
         <Icon>icon.png</Icon>
         <Tags>vue js, SPA, Asp.NET, core, single page, application, web</Tags>
     </Metadata>
-    <Installation>
+    <Installation InstalledByMsi="true">
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
         <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
         <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
